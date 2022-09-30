@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Frontend Mentor | Expenses chart component</title>
+  <script type="module" src="data.json" defer></script>
+  <script type="text/javascript" src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <span>My balance</span>
+        <h1>$921.48</h1>
+      </div>
+      <img src="./images/logo.svg" alt="logo"/>
+    </header>
+    <main>
+      <h1>Spending - Last 7 days</h1>
+      <div class="middle">
+        <div class="middle_bar_box">
+          <span class="day">mon</span>
+          <div class="bar mon" style='height:  calc(50px + 17.25px)'></div>
+          <p class="cost">17.25</p>
+
+        </div>
+        <div class="middle_bar_box">
+          <span class="day">Tue</span>
+          <div class="bar tue" style='height:  calc(50px + 33.25px)'></div>
+          <p class="cost">33.25</p>
+        </div>
+        <div class="middle_bar_box">
+          <span class="day">Wed</span>
+          <div class="bar wed" style='height:  calc(50px + 52.25px)'></div>
+          <p class="cost">52.25</p>
+        </div>
+        <div class="middle_bar_box">
+          <span class="day">Thu</span>
+          <div class="bar thu" style='height:  calc(50px + 31.25px)'></div>
+          <p class="cost">31.25</p>
+        </div>
+        <div class="middle_bar_box">
+          <span class="day">Fri</span>
+          <div class="bar fri" style='height:  calc(50px + 22.25px)'></div>
+          <p class="cost">22.25</p>
+        </div>
+        <div class="middle_bar_box">
+          <span class="day">Sat</span>
+          <div class="bar sat" style='height:  calc(50px + 45.25px)'></div>
+          <p class="cost">45.25</p>
+        </div>
+        <div class="middle_bar_box">
+          <span class="day">Sun</span>
+          <div class="bar sun" style='height: calc(50px + 25.25px)'></div>
+          <p class="cost">25.25</p>
+        </div>
+      </div>
+      <div class="bottom">
+        <span>Total this month</span>
+        <div>
+          <h1>$478.33</h1>
+          <div>
+            <b>+2.4%</b>
+            <span>from last month</span>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Yesu Padam</a>.
+  </div>
+</body>
+</html>
